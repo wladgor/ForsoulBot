@@ -136,7 +136,8 @@ async def how_use_bot(update: Update, context: CallbackContext):
 
 
 async def about(update: Update, context: CallbackContext):
-    await update.message.reply_text("Проект представляет бесплатный ресурс по редактированию звуковых файлов и дальшейшим их сохранением. Над проектом работали Стрельников Михаил, Горский Владислав, Кузнецов Владимир. Проект опенсурс и вы можете ознакомиться с ним на github https://github.com/youngwhist/projectmusic/. Так же проект размещён на сайте и вы можете использовать его вместо бота.")
+      await update.message.reply_text("Проект представляет бесплатного телеграмм бота для редактирования звуковых файлов. Проект был создан для конкурса ИТ кон. Вы можете ознакомиться с кодом  проекта в github https://github.com/wladgor/ForsoulBot")
+
 
 
 async def close(update: Update, context: CallbackContext):
